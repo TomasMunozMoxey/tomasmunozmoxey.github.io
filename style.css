@@ -1,0 +1,127 @@
+body {
+	background-color: lightgoldenrodyellow;
+	color: #000000;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	/*background-image: url(imgs/ocean.jpg);*/
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+h2{
+	/*height: 100vh;*/
+	text-align: center;
+	font-size: 200%;
+}
+
+h3{
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+pre{
+	margin-left: 50px;
+}
+
+p{
+	margin-left: 50px;
+}
+
+a{
+	margin-bottom: 10px;
+}
+
+.pastor img{
+	margin-left: 50px;
+
+}
+
+section{
+	background-size: cover;
+	background-position: center;
+	background-color: lightgoldenrodyellow;
+}
+
+ul{
+	float: right;
+	list-style-type: none ;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #00;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	margin-left: 60px;
+	float: left;
+	margin-top: 25px;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	/*max-width: 1200px;*/
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 38px;
+
+}
+
+.button{
+	font-size: 150%;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+

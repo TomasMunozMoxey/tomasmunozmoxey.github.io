@@ -3,15 +3,34 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio of Tomas Munoz-Moxey</title>
 </head>
 
 <body>
-	<header>
-		Welcome to the initil debugging !
-	</header>
+  <header>
+    <div id="SLIDE_BG" class = "main">
+      <div class = "logo">
+        <image src="{{ url_for('static', filename='imgs/logo.jpg')}}">
+      </div>
+      <ul>
+        <li class = "active"><a href="/"> Home</a></li>
+        <li><a href="/contact_us">Contact-Us</a></li>
+        <li><a href="/login"> Login</a></li>
+        <li><a href="/sign-up"> Sign-up</a></li>
+        <li><a href="/sp"> Spanish</a></li>
+      </ul>
+    </div>
+    <div class = "title">
+      <h1>TOMAS SANTIAGO MUNOZ-MOXEY </h1>
+    </div>
 
-This will look much better once this is actually developed by myself, Tomas the pro programmer
+    <div class="button" >
+          <a href="#" class="btn">About</a>
+          <a href="#" class="btn">Test</a>
+    </div>
+  </header>
+
 </body>
 </html>
 

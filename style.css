@@ -11,18 +11,18 @@
     padding: 0 80px;
     margin: auto;
 }
-
 .navbar{
     position: fixed;
     width: 100%;
     padding: 25px 0;
-    background: lightslategray;
+    background: lightskyblue;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    z-index: 999;
 }
 .navbar.sticky{
     padding: 10px 0;
-    background: lightslategray;
+    background: lightskyblue;
 }
 
 .navbar .max-width{
@@ -54,17 +54,16 @@
 }
 
 /* menu button */
-.menu-btn{
+/* .menu-btn{
     color: white;
     font-size: 23px;
     cursor: pointer;
-}
-
+} */
 
 /*home styling*/
 .home{
     display: flex;
-    background: url("imgs/surfin.JPG") no-repeat center;
+    background: url("imgs/surfin.jpg") no-repeat center;
     background-size: contain;
     height: 140vh;
     color: white;
@@ -98,6 +97,34 @@
 }
 
 /* about me section  */
+
 .about{
     font-family: 'Poppins', sans-serif;
+    /* background: grey; */
 }
+
+.about .row{
+    padding-left: 200px;
+}
+
+.about .pic img{
+    float: left;
+    margin-right: 60px;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    overflow: unset;
+    border: 10px solid lightskyblue;
+}
+
+.about .description{
+    font-family: 'Poppins', sans-serif;
+}
+.about .info .about-name{
+    font-size: 40px;
+}
+.about .info .about-job{
+    color: red;
+    margin-bottom: 15px;
+}
+

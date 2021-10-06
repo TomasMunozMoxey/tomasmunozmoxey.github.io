@@ -53,11 +53,18 @@
     color: red;
 }
 
+/* menu button */
+.menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 
 /*home styling*/
 .home{
     display: flex;
-    background: url("surfin.jpg") no-repeat center;
+    background: url("imgs/surfin.jpg") no-repeat center;
     background-size: contain;
     height: 140vh;
     color: white;

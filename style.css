@@ -14,14 +14,14 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 25px 0;
-    background: lightskyblue;
+    padding: 15px 0;
+    background: red;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
     z-index: 999;
 }
 .navbar.sticky{
-    padding: 10px 0;
+    padding: 8px 0;
     background: lightskyblue;
 }
 
@@ -63,9 +63,9 @@
 /*home styling*/
 .home{
     display: flex;
-    background: url("imgs/surfin.JPG") no-repeat center;
-    background-size: contain;
-    height: 140vh;
+    background: url("imgs/surf.JPG") no-repeat center;
+    background-size: cover;
+    height: 90vh;
     color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -99,6 +99,7 @@
 /* about me section  */
 
 .about{
+    margin-top: 40px;
     font-family: 'Poppins', sans-serif;
     /* background: grey; */
 }

@@ -24,6 +24,9 @@
     padding: 8px 0;
     background: lightskyblue;
 }
+.navbar.sticky .menu li :hover{
+    color: red;
+}
 
 .navbar .max-width{
     display: flex;
@@ -35,6 +38,14 @@
     color: white;
     font-size: 35px;
     font-weight: 600;
+}
+
+.navbar .logo span{
+    color: lightskyblue;
+}
+
+.navbar.sticky .logo span{
+    color: red;
 }
 
 .navbar .menu li {
@@ -50,7 +61,7 @@
 }
 
 .navbar .menu li a:hover{
-    color: red;
+    color: lightskyblue;
 }
 
 /* menu button */
@@ -128,4 +139,8 @@
     color: red;
     margin-bottom: 15px;
 }
+
+/* .about .resume{
+    padding-bottom: 100px;
+} */
 

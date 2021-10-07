@@ -110,7 +110,7 @@
 /* about me section  */
 
 .about{
-    margin-top: 40px;
+    margin-top: 85px;
     font-family: 'Poppins', sans-serif;
     /* background: grey; */
 }
@@ -121,7 +121,7 @@
 
 .about .pic img{
     float: left;
-    margin-right: 60px;
+    margin-right: 40px;
     width: 350px;
     height: 400px;
     object-fit: cover;

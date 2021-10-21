@@ -76,6 +76,7 @@
     display: flex;
     background: url("imgs/surf.JPG") no-repeat center;
     background-size: cover;
+    /* text-align: center;   */
     height: 90vh;
     color: white;
     min-height: 500px;
@@ -84,6 +85,18 @@
 
 .home .max-width{
     margin: auto 0 auto 40px;
+}
+
+.home .home-content{
+    backdrop-filter: blur(5px) brightness(0.5);
+    border: 3px solid red;
+    padding: 25px;
+}
+
+.home.sticky .home-content {
+    backdrop-filter: blur(5px) brightness(0.5);
+    border: 3px solid lightskyblue;
+    padding: 25px;
 }
 
 .home .home-content .text-1{
@@ -99,12 +112,12 @@
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+
 }
 
 .home .home-content .text-3 span{
     color: red;
     font-weight: 500;
-
 }
 
 /* about me section  */

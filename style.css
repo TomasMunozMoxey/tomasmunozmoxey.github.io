@@ -6,10 +6,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
+.max-width{   /*USED FOR ALL LEFT-RIGHT FORMATTING TO KEEP IT THE SAME */
+    /* max-width: 1300px; */
+    padding-left: 190px;
+    padding-right: 80px;
+    /* margin: auto; */
 }
 .navbar{
     position: fixed;
@@ -71,12 +72,12 @@
     cursor: pointer;
 } */
 
+
 /*home styling*/
 .home{
     display: flex;
     background: url("imgs/surf.JPG") no-repeat center;
     background-size: cover;
-    /* text-align: center;   */
     height: 90vh;
     color: white;
     min-height: 500px;
@@ -84,13 +85,18 @@
 }
 
 .home .max-width{
-    margin: auto 0 auto 40px;
+    /* margin: auto 0 auto 40px; */
+    margin-top: 20%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;   
 }
 
 .home .home-content{
     backdrop-filter: blur(5px) brightness(0.5);
     border: 3px solid red;
     padding: 25px;
+
 }
 
 .home.sticky .home-content {
@@ -159,6 +165,23 @@
     font-size: 20px;
 }
 
+/* My Skills section  */
 
+.skills .skills-container{
+    text-align: center;
+    font-size: 35px;
+}
+
+.skills .skills-container .container{
+    float: left;
+    width: 50%;
+    /* padding: 40px; */
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.skills .skills-container .container h4{
+    font-size: 30px;
+}
 
 

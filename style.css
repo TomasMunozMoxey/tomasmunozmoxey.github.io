@@ -9,13 +9,14 @@
 .max-width{   /*USED FOR ALL LEFT-RIGHT FORMATTING TO KEEP IT THE SAME */
     /* max-width: 1300px; */
     padding-left: 190px;
-    padding-right: 80px;
+    padding-right: 190px;
     /* margin: auto; */
 }
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
     background: red;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;

@@ -99,27 +99,22 @@
     padding: 25px;
 
 }
-
 .home.sticky .home-content {
     backdrop-filter: blur(5px) brightness(0.5);
     border: 3px solid lightskyblue;
     padding: 25px;
 }
-
 .home .home-content .text-1{
     font-size: 27px;
 }
-
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
-
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-
 }
 
 .home .home-content .text-3 span{
@@ -131,7 +126,6 @@
 .about{
     margin-top: 85px;
     margin-bottom: 80px;
-    padding-left: 200px;
     font-family: 'Poppins', sans-serif;
     /* background: grey; */
 }

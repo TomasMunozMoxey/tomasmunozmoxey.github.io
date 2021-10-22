@@ -79,7 +79,7 @@
     display: flex;
     background: url("imgs/surf.JPG") no-repeat center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;

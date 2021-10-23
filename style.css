@@ -152,19 +152,21 @@
 }
 .about .info .info-list{
     font-size: 20px;
+    padding-bottom: 6px;
 }
 .about .info .resume{
     border: 2px solid black;
     background-color: lightblue;
+    padding: 5px;
     color: red;
     font-size: 20px;
 }
 
 /* My Skills section  */
-
 .skills .skills-container{
     text-align: center;
     font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .skills .skills-container .container{
@@ -172,12 +174,58 @@
     width: 50%;
     /* padding: 40px; */
     padding-top: 30px;
-    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.skills .skills-container .container .column{
+    padding-bottom: 50px;
+
 }
 
 .skills .skills-container .container h4{
     font-size: 30px;
 }
+
+.skills .skills-container .container .lang{
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+ /* progress bar stuff */
+.skills .skills-container .meter{ 
+    height: 40px;  
+    position: relative;
+    background: black;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+  }
+.skills .skills-container .meter > span {
+    display: block;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: red;
+    /* background-image: linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+    ); */
+    box-shadow: 
+      inset 0 2px 9px  lightskyblue,
+      inset 0 -2px 6px red;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+
 
 @media screen and (max-width: 1000px) {
     *{

@@ -155,10 +155,11 @@
     padding-bottom: 6px;
 }
 .about .info .resume{
-    border: 2px solid black;
-    background-color: lightblue;
+    border: 2px solid red;
+    background-color: white;
     padding: 5px;
     color: red;
+    font-weight: 600;
     font-size: 20px;
 }
 
@@ -199,7 +200,7 @@
 
 .skills .skills-container .container .level{
     font-size: 18px;
-    padding-top: 13px;
+    padding-top: 15px;
     font-weight: 500;
     color: gray;
     opacity: 50%;

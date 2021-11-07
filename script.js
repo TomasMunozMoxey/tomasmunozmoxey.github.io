@@ -9,3 +9,10 @@ $(document).ready(function(){
         }
     })
 }); 
+
+var typed = new Typed(".typing", {
+    strings: ["Software Engineer","Software Developer","Problem Solver","Surfer","Athlete","Coffee Enthusiast","Creator","Traveler"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});

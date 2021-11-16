@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: red;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+.navbar.sticky{
+    padding: 8px 0;
+    background: lightskyblue;
+}
+.navbar.sticky .menu li :hover{
+    color: red;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.navbar .logo span{
+    color: lightskyblue;
+}
+
+.navbar.sticky .logo span{
+    color: red;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: lightskyblue;
+}
+
+/*home styling*/
+.home{
+    display: flex;
+    background: url("imgs/fsu_alumni.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+    /* background-size: contain; */
+    height: 100vh;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+    /* margin: auto 0 auto 40px; */
+    margin-top: 70%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;   
+}
+
+.home .home-content{
+    backdrop-filter: blur(5px) brightness(0.5);
+    border: 3px solid red;
+    padding: 25px;
+
+}
+.home.sticky .home-content {
+    backdrop-filter: blur(5px) brightness(0.5);
+    border: 3px solid lightskyblue;
+    padding: 25px;
+}
+.home .home-content .text-1{
+    font-size: 30px;
+}
+.home .home-content .text-2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: red;
+    font-weight: 500;
+}
+
+/* about me section  */
+.about{
+    margin-top: 85px;
+    margin-bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+    /* background: grey; */
+}
+
+.about .max-width{
+    margin-bottom: 80px;
+}
+
+.about .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;  
+    /* float: left; */
+    margin-right: 80px;
+
+  }
+  
+.about .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+.about button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:lightskyblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.about a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+.about button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.about p.bio{
+    /* background-color: red; */
+    /* color: red; */
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.about .about-job{
+    color: red;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.about .info-list{
+    font-size: 20px;
+    padding-bottom: 6px;
+    margin-bottom: 200px;
+}
